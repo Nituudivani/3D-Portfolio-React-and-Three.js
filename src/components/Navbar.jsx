@@ -13,7 +13,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   
   // logo defind
-  const logo = require("../assets/klipartz.com.png")
+  const logo = require("../assets/")
 
   useEffect(() => {
     const handleScroll = () => {
@@ -49,11 +49,11 @@ const Navbar = () => {
         >
           {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
           <div>
-           <img src={logo} alt="" height={50} width={50}  />
+           <img src={logo} alt="" height={40} width={40}  />
           </div>
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adrian &nbsp;
-            <span className='sm:block hidden'> | JavaScript Mastery</span>
+            Nitin &nbsp;
+            <span className='sm:block hidden'> | Full stack Developer</span>
           </p>
         </Link>
 
